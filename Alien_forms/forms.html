@@ -10,12 +10,18 @@
 		<section>
 			<h1>Alien Abduction Order Form</h1>
 			<p>Fill out the form below to place an order for an alien abduction by one of our fine UFOs.</p>
-			<h2>Your contact information</h2>
-			<p>Your name 
-			<p>Phone number</p>
-			<p>Email</p>
-
-			<h2>About your abduction </h2>
+			<form>
+			<fieldset>
+				<legend>Your contact information</legend> 
+				<label for="name">Your name</label><br>
+			<input type="text" name="name" id="name" ><br>
+			<label>Phone number</label><br>
+			<input type="number" name="phone number" id="phone number"><br>
+			<label>Email</label><br>
+			<input type="email" name="email" id="email">
+		</fieldset>
+		<fieldset>
+			<legend>About your abduction </legend>
 			<p>Requested  date</p>
 			<p>How many people would you like abducted?</p>
 			<p>What type of UFO do you prefer?</p>
@@ -33,8 +39,10 @@
 					<li>Whale watching</li>
 				</ul>
 			<p>Special requests:</p>
-			<p>Add me to your email list</p>				
-		</section>
+			<p>Add me to your email list</p>
+		</form>	
+	</fieldset>			
+		</section>	
 		<aside>
 			<h3>Our Location</h3>
 			<address>
